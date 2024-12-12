@@ -1,0 +1,166 @@
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+header {
+    background-color: rgba(0,0,0,0.59);
+    color: white;
+    text-align: center;
+}
+
+h2{
+    display: inline-block;
+}
+
+
+#difficulty{
+    color:gray;
+}
+
+@media screen and (max-width: 800px) {
+
+#mostrar{
+    padding-top:10px;
+    width: 90%;
+
+}
+#inp {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    outline: none;
+}
+
+#buttons{
+    text-align: center;
+
+    width: 90%;
+}
+
+#inputs{
+    width: 95%;
+
+}
+a{
+    font-size: 21px;
+    width:60%;
+    height:60px;
+}
+}
+
+@media screen and (min-width: 801px) {
+
+#inputs{
+    width: 70%;
+
+}
+#mostrar{
+    width: 60%;
+    padding-top:10px;
+
+}
+
+#inp {
+    width: 100%;
+    height: 9vh;
+    padding-left: 10px;
+    outline: none;
+    font-size: 17px;
+border: 3px solid #1267af
+}
+
+#inp:hover{
+border: 3px solid #0094ff;
+}
+
+#buttons{
+    text-align: center;
+
+    width: 60%;
+    height:70px;
+}
+
+
+a{
+    width:30%;
+    height:40px;
+}
+
+    }
+
+#inputs {
+    
+    text-align: left; 
+    padding: 20px;
+   display: flex; 
+ 
+}
+
+
+
+.container {
+
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+#btn {
+    font-family: Arial;
+
+    cursor: pointer;
+    padding:7px;
+    background-color: #1267af;
+    border:none;
+    color:white;
+    margin-top:10px;
+    display: inline-block;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 40%;
+
+}
+
+#btn:hover{
+    background-color: #005a9b;
+}
+
+#mostrar {
+    background-color: rgba(0,0,0,0.55);
+    color: white;
+    
+    height: 20vh;
+    margin-top: 5px; 
+    overflow-y: scroll;
+    scrollbar-width:thin;
+    padding-left: 10px;
+    border: 1px inset #1267af; 
+    font-size:15px;
+}
+
+
+a{
+    background-color: blue;
+    color:white;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
